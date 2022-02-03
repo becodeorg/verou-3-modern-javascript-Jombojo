@@ -1,9 +1,9 @@
-import Data from "./config.js";
-import {searchBar, container, cityNameContainer} from './script.js';
+import Data from "../config.js";
+import {searchBar, container, cityNameContainer} from '../script.js';
 
 const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-// Event will start on a keyup action
+// Event will start on a keyup actio
 searchBar.addEventListener('keyup', (event) => {
 
     // checking the action for specific key (Enter)
